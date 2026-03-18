@@ -1,3 +1,24 @@
+# --- iOS & Xcode ---
+build/
+DerivedData/
+*.swp
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.bundle
+*.app
+*.ipa
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# --- ML & Large Files ---
+datasets/
+*.pt
+*.pth
+*.h5
+*.weights
+*.onnx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
